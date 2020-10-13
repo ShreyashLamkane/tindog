@@ -1,0 +1,156 @@
+/* navigation bar */
+.navbar-brand{
+  font-size: 45px;
+
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar{
+  padding-left: 0;
+}
+.navbar-nav{
+  padding-left: 10%;
+}
+
+/* heading section */
+#title{
+  background-color: #ff4c68;
+  position: absolute;
+  z-index: 1;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.heading-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding:3% 15%;
+  background-color:#ff4c68;
+  height: 700px;
+  padding-bottom: 7%
+}
+.row{
+  padding-top: 50px;
+}
+
+.buttons{
+  padding-top: 30px;
+}
+.iphone{
+  padding-top: 15px;
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  z-index: 2;
+}
+
+.bt2{
+  margin-left: 10px;
+}
+/* feature section */
+#features{
+   background-color: white;
+   position: relative;
+   z-index: 3;
+}
+.feature-text{
+  font-family: 'Montserrat', sans-serif;
+  size:1.5rem;
+  text-align: center;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+.feature-box{
+  padding: 7% 5%;
+  text-align: center;
+
+}
+.icons{
+  color:#ef8172;
+  font-size: 100px;
+  padding-bottom: 20px;
+
+}
+.Describe{
+  color: #8f8f8f;
+}
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px;
+}
+/* pricing  section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+ /* Call to Action */
+#cta{
+  background-color:#ff4c68;
+  padding: 5%;
+  text-align: center;
+  line-height: 2rem;
+}
+.cta-text{
+  color: white;
+  font-size: 40px;
+  line-height: 1.5em;
+}
+.butt{
+  padding-top: 50px;
+}
+/* footer section */
+#footer{
+  text-align: center;
+  padding: 2%;
+}
+.fab{
+  font-size: 20px;
+  padding: 8px;
+}
+.Copyright{
+  padding-top:10px;
+  font-size: 15px;
+}
+@media (max-width: 1020px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+
+  }
+  .container-fluid{
+    height: 1220px;
+    text-align:center;
+
+  }
+
+}
